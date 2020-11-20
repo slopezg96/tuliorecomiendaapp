@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TulioRecomiendaApp</string>
+    <string name="recomendaciones">Recomendaciones</string>
+    <string name="recetas">Recetas</string>
+    <string name="ver_mas">Ver más...</string>
+    <string name="eventos_master">Eventos Master</string>
+    <string name="tulio_te_cuenta">Tulio te cuenta</string>
+    <string name="descuentos">Descuentos</string>
+    <string name="mejores_calificados">Mejores calificados</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="mi_experiencia">Mi experiencia</string>
+    <string name="ver_menos">Ver menos...</string>
+    <string name="tel_fono_y_direcci_n">Teléfono y Dirección</string>
+    <string name="galer_a">Galería</string>
+</resources>

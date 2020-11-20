@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp">
+
+
+    <TextView
+        android:id="@+id/tvMyExperienceTitle"
+        android:text="@string/mi_experiencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/exTvMyExperience"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:colorClickableText="@color/redTulio"
+        app:trimCollapsedText="@string/ver_mas"
+        app:trimLines="5"
+        app:trimExpandedText="@string/ver_menos"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tvContact"
+            android:text="@string/tel_fono_y_direcci_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+                <androidx.cardview.widget.CardView
+                    android:background="@color/gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_gravity="center"
+                        android:text="3107032576"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_launcher"
+                    android:id="@+id/ivPhoneIcon"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+                <androidx.cardview.widget.CardView
+                    android:background="@color/gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="0dp">
+
+                    <TextView
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_gravity="center"
+                        android:text="Cll 55 # 80 - 67"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_launcher"
+                    android:id="@+id/ivAddressIcon"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvGalleryTitle"
+        android:text="@string/galer_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vpImagesGallery"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:paddingStart="80dp"
+        android:paddingEnd="80dp"/>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    app:cardCornerRadius="25dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="5dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivFoodCategory"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:background="#66000000"
+            android:src="@drawable/recetas"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"/>
+
+        <TextView
+            android:id="@+id/tvFoodCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="12dp"/>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
